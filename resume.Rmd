@@ -1,6 +1,6 @@
 ---
-title: Nick Strayer's Resume"
-author: Nick Strayer
+title: Ginger Cates' Resume"
+author: Ginger Cates
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -54,11 +54,11 @@ Contact {#contact}
 
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> gcates12@asu.edu
+- <i class="fa fa-twitter"></i> GingerCates
+- <i class="fa fa-github"></i> https://github.com/gcates12-glitch/PAF514-CV-Example
+- <i class="fa fa-link"></i> [https://github.com/gcates12-glitch/PAF514-CV-Example](https://github.com/gcates12-glitch/PAF514-CV-Example)
+- <i class="fa fa-phone"></i> (555) 555-1212
 
 
 
@@ -85,18 +85,17 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
+All projects available at `https://github.com/gcates12-glitch/<name>`
 
 
-- `shinysense`: R package to use sensor data in Shiny apps
-- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
-- `slid3r`: D3 add-on for fully svg slider inputs
+- `montyhall`: R package to solve the Monty Hall problem
+
 
 
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at nickstrayer.me/cv for more complete list of positions and publications.
+See full CV at https://github.com/gcates12-glitch/PAF514-CV-Example for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
@@ -104,7 +103,7 @@ Disclaimer {#disclaimer}
 
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
-Source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+Source code: [https://github.com/gcates12-glitch/PAF514-CV-Example](https://github.com/gcates12-glitch/PAF514-CV-Example).
 
 Last updated on `r Sys.Date()`.
 
@@ -114,14 +113,11 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Ginger Cates {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
-
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
-"
+intro_text <- "I am a current student in the ASU Program Evaluation & Data Analytics graduate program. I am also a full-time higher education professional, working in Residential Life for a state university."
 
 
 cat(sanitize_links(intro_text))
